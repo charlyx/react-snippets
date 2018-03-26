@@ -1,0 +1,32 @@
+snippet rcc "React Component Class"
+import React, { Component }  from 'react'
+import PropTypes from 'prop-types'
+
+export class $1 extends Component {
+	static propTypes = {
+	}
+
+	state = {
+	}
+
+	render() {
+		return (
+			<div />
+		)
+	}
+}
+endsnippet
+
+snippet rcf "React Component Function"
+import React from 'react'
+import PropTypes from 'prop-types'
+
+$1.propTypes = {
+}
+
+export function $1(props) {
+	return (
+		<div />
+	)
+}
+endsnippet
